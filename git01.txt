@@ -3,3 +3,17 @@ chuhao
 第三次修改
 第四次修改
 第三代版本
+git init 文件初始化
+git status 查看文件的追踪情况
+git add **.txt 添加文件
+git commit -m'**'  提交文件
+git reset HEAD 将提交到暂存区待提交的文件进行撤回
+git diff HEAD -- **(文件名)  查看当前提交与上一版本的不同
+git log -x --pretty=oneline 将日志按行展示仅展示x行
+版本回退:
+git reset --hard HEAD^ 回退到上一版本，有几个^就回退几个版本
+git reset --herd HEAD~n 回退n个版本
+版本回溯：
+git reset --herd +版本id前6位  回溯到这个id的版本
+版本误删除
+git checkout --+文件名称 将已提交到git的文件进行恢复到工作区
