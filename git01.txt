@@ -20,6 +20,10 @@ git checkout --+文件名称 将已提交到git的文件进行恢复到工作区
 删除操作
 git rm 文件名
 
+
+提交远程仓库操作
+git push -u origin +线路名称 将已commit的文件提交到远程仓库指定的线路名称中
+
 git分支操作
 git checkout branchname  切换到指定分支去
 git branch 查看所有分支
