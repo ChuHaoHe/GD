@@ -17,3 +17,5 @@ git reset --herd HEAD~n 回退n个版本
 git reset --herd +版本id前6位  回溯到这个id的版本
 版本误删除
 git checkout --+文件名称 将已提交到git的文件进行恢复到工作区
+删除操作
+git rm 文件名
