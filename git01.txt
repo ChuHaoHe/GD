@@ -19,3 +19,10 @@ git reset --herd +版本id前6位  回溯到这个id的版本
 git checkout --+文件名称 将已提交到git的文件进行恢复到工作区
 删除操作
 git rm 文件名
+
+git分支操作
+git checkout branchname  切换到指定分支去
+git branch 查看所有分支
+git checkout -n new-branch 创建新分支并切换到新分支
+git merge branch 合并分支
+git branch -d branchname 删除分支
