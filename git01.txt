@@ -38,3 +38,12 @@ git branch -a 查看远程及本地分支
 git push origin branch-name 推送本地分支到远程
 git checkout -b 你的本地分支name origin/远程仓库指定分支name 拉取远程指定分支并在本地创建分支
 git fetch 获取远程仓库最新分支情况
+
+标签管理
+
+git tag tag-name 新添标签 默认为head
+git tag -a tag-name -m 'xxx'添加标签并指定标签描述信息
+git tag 查看所有标签
+git tag -d tag-name 删除本地标签
+git push origin tag-name 推送本地标签到远程
+
